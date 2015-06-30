@@ -70,7 +70,7 @@ body {
 
 .emailInput{
 	border-radius: 3px;
-	opacity: .8;
+	opacity: .4;
 	width: 200px;
 	border:	none;
 	height: 30px;
@@ -201,7 +201,7 @@ body {
 .auctionButton{
 	background-color: #a80077;
 	color: #fff;
-	box-shadow: 1px 1px 3px #e7e7e7;
+	box-shadow: 1px 1px 3px #999999;
 	padding: 15px;
 	margin-top: 20px;
     width: 80px;
@@ -231,6 +231,10 @@ body {
 	height: 15px;
 	position: relative;
 	top: -150px;
+	padding: 15px;
+  	margin-top: 15px;
+  	float: right;
+  	left: 400px;
 }
 
 #upcomingAuctions{
@@ -304,7 +308,7 @@ body {
 .howitworksButton{
 	background-color: #84a902;
 	color: #fff;
-	box-shadow: 1px 1px 3px #e7e7e7;
+	box-shadow: 1px 1px 3px #999999;
 	padding: 15px;
     left: 44%;
     position: relative;
@@ -315,7 +319,7 @@ body {
 #causeBanner{
 	width: 100%;
 	background-image: url(assets/purplebanner.png);
-	height: 800px;
+	height: 500px;
 	width: 100%;
 	background-repeat: no-repeat;
 }
@@ -366,100 +370,167 @@ body {
 }
 
 #helpHeader{
-	font-family: "Helvetica Neue";
-	font-weight: bold;
-	color: #000000;
-	font-size: 40px;
-	position: relative;
-	left: 20%;
+font-family: "Helvetica Neue";
+  font-weight: 500;
+  color: #000000;
+  font-size: 30px;
+  position: relative;
+  left: 20%;
+  text-transform: uppercase;
 }
 
 #helpSubheader{
-	font-size: 30px;
-	color: #e7e7e7;
-	font-family: "Helvetica Neue";
-	font-weight: normal;
-	position: relative;
-	left: 20%;
+  font-size: 20px;
+  color: #666666;
+  font-family: "Helvetica Neue";
+  font-weight: 200;
+  position: relative;
+  left: 20%;
+  margin-top: 20px;
 }
 
-.helpButton{
+.helpButton {
 	background-color: #84a902;
 	color: #fff;
-	box-shadow: 1px 1px 3px #e7e7e7;
+	box-shadow: 1px 1px 3px #999999;
 	padding: 15px;
 	position: relative;
 	left: 20%;
-	top: 80px;
+	top: 60px;
+	width: 290px;
+	height: 60px;
+	border-radius: 4px;
+}
+
+.helpButton a {
+	font-size: 25px;
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+	left: 60px;
+	position: relative;
+}
+
+.helpButton span {
+	position: relative;
+	font-size: 16px;
+	right: 145px;
+	top: 25px;
+
 }
 
 #giftPic {
-	background-image: url(assets/gift.png);
-	height: 500px;
-	width: 500px;
-	background-repeat: no-repeat;
-	background-size: 100%;
-	float: right;
-    right: 300px;
-    bottom: 222px;
-    position: relative;
+  background-image: url(assets/gift.png);
+  height: 400px;
+  width: 400px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  float: right;
+  right: 10%;
+  bottom: 205px;
+  position: relative;
 }
 
 .footer{
 	background-color: #3d3143;
 	padding-top: 30px;
-	height: 150px;
+	height: 160px;
 	width: 100%;
+	padding-bottom: 30px;
 }
 
 .footerLinks{
-
+	left: 20%;
+  	position: relative;
 }
 
-.footerLink{
+.footerLink {
+	padding-bottom: 10px;
+}
+
+.footerLink a {
 	font-size: 12px;
 	color: #fff;
 	font-family: "Helvetica Neue";
-	padding-bottom: 10px;
+	text-decoration: none;
+	font-weight: 100;
+	color: #e7e7e7;
+}
+
+.email {
+	position: relative;
+	left: 40%;
+	bottom: 100px;
+}
+
+.alertEmailLabel{
+  	margin-bottom: 10px;
+  	color: #cccccc;
+}
+
+.alertEmail {
+  	padding-left: 10px;
+  	color: #999999;
 }
 
 .emailButton{
- 	background-image: url();
- 	height: 100%;
-	width: 100%;
+ 	background-image: url(assets/emailButton.png);
+ 	height: 30px;
+	width: 40px;
+	background-repeat: no-repeat;
+	position: relative;
+	bottom: 31px;
+	left: 165px;
+	padding-left: 15px;
+  	background-position-x: 10px;
+  	background-position-y: 6px;
+  	border-left: 1px solid #cccccc;
+
 }
 
 .socialIcons{
-	margin: 10px;
+	float: right;
+	bottom: 200px;
+	position: relative;
+	left: 20%;
+}
+
+.socialIcon {
+	position: inline;
+	background-repeat: no-repeat;
+	height: 50px;
+	width: 50px;
+	float: left;
+	margin-right: 15px;
 }
 
 .facebook{
- 	background-image: url();
- 	height: 100%;
-	width: 100%;
+ 	background-image: url(assets/facebook.png);
 }
 
 .twitter{
- 	background-image: url();
- 	height: 100%;
-	width: 100%;
+ 	background-image: url(assets/twitter.png);
 }
 
 .linkedin{
- 	background-image: url();
- 	height: 100%;
-	width: 100%;
+ 	background-image: url(assets/linkedin.png);
 }
 
 .bottomBar{
-	width: 100%;
-	height: 60px;
-	background-color: #342939;
+  width: 100%;
+  height: 30px;
+  background-color: #342939;
+  padding-top: 32px;
+  letter-spacing: 1px;
+  text-align: center;
+  padding-left: 25%;
+  padding-bottom: 15px;
 }
 
 .copyright{
-	font-size: 10px;
-	color: #fff;
+	color: #999999;
 	font-family: "Helvetica Neue";
 	padding-bottom: 10px;
+	font-weight: 100;
+	font-size: 12px;
 }
